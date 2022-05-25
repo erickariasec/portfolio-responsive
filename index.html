@@ -12,7 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 991px)">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1300px)">
     <link rel="shortcut icon" href="images/erick-arias-logo-blanco.png" type="image/x-icon">
     <title>Personal Portfolio - Erick Arias</title>
 </head>
@@ -25,14 +27,14 @@
             <div class="max-width">
                 <div class="logo"><a href="#">erickarias<span>ec</span></a></div>
                 <ul class="menu">
-                    <li><a href="#home" class="menu-btn" aria-label="Go to Erick Arias home page" role="link">Home</a></li>
-                    <li><a href="#about" class="menu-btn" aria-label="Go to Erick Arias about page" role="link">About</a></li>
-                    <li><a href="#services" class="menu-btn" aria-label="Go to Erick Arias services page" role="link">Services</a></li>
-                    <li><a href="#skills" class="menu-btn" aria-label="Go to Erick Arias skills page" role="link">Skills</a></li>
-                    <li><a href="#projects" class="menu-btn" aria-label="Go to Erick Arias projects page" role="link">Projects</a></li>
-                    <li><a href="#contact" class="menu-btn" aria-label="Go to Erick Arias contact page" role="link">Contact</a></li>
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#services" class="menu-btn">Services</a></li>
+                    <li><a href="#skills" class="menu-btn">Skills</a></li>
+                    <li><a href="#projects" class="menu-btn">Projects</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
                 </ul>
-                <div class="menu-btn" aria-label="Press here to see menu button" role="button">
+                <div class="menu-btn">
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
@@ -41,13 +43,13 @@
 
     <main>
         <!-- home section start -->
-        <section class="home" id="home" aria-label="You are at home section">
+        <section class="home" id="home">
             <div class="max-width">
-                <div class="home-content" aria-label="Hi, my name is Erick Arias And I'm a Developer, Freelancer and Designer">
+                <div class="home-content">
                     <div class="text-1">Hi, my name is</div>
                     <div class="text-2"><h1>Erick Arias</h1></div>
                     <div class="text-3">And I'm a <span class="typing"></span></div>
-                    <a href="#contact" aria-label="Hire me button to contact me at contact section" role="button">Hire me</a>
+                    <a href="#contact">Hire me</a>
                 </div>
             </div>
         </section>
@@ -58,38 +60,38 @@
                 <h2 class="title">About me</h2>
                 <div class="about-content">
                     <div class="column left">
-                        <img src="images/profile-erick-arias.webp" alt="Profile Picture Erick Arias">
+                        <img src="images/profile-erick-arias.webp">
                     </div>
                     <div class="column right">
                         <div class="text">I'm Erick and I'm a <span class="typing-2"></span></div>
                         <p>Passionate about discovering and implementing new technological tools to contribute and positively impact the world
                         through learning and continuous improvement.</p>
-                        <a href="docs/CV - Erick Roberto Arias Sánchez - 2022.pdf" download="CV - Erick Roberto Arias Sánchez - 2022" aria-label="Download CV button to download Erick Arias CV " role="button">Download CV</a>
+                        <a href="docs/CV - Erick Roberto Arias Sánchez - 2022.pdf" download="CV - Erick Roberto Arias Sánchez - 2022">Download CV</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- services section start -->
-        <section class="services" id="services" aria-label="You are at services section">
+        <section class="services" id="services">
             <div class="max-width">
                 <h2 class="title">My services</h2>
                 <div class="serv-content">
-                    <div class="card" aria-label="Topic Title: Web Design. Description inside: Design is not just what it looks like and feels like. Design is how it works.">
+                    <div class="card">
                         <div class="box">
                             <i class="fas fa-paint-brush"></i>
                             <div class="text">Web Design</div>
                             <p>Design is not just what it looks like and feels like. Design is how it works.</p>
                         </div>
                     </div>
-                    <div class="card" aria-label="Topic Title: Advertising. Description inside: It's not what you sell that matters as much as how you sell it!">
+                    <div class="card">
                         <div class="box">
                             <i class="fas fa-chart-line"></i>
                             <div class="text">Advertising</div>
                             <p>It's not what you sell that matters as much as how you sell it!</p>
                         </div>
                     </div>
-                    <div class="card" aria-label="Topic Title: Apps Design. Description inside: Looks so Good on the Outside, It'll Make You Feel Good Inside.">
+                    <div class="card">
                         <div class="box">
                             <i class="fas fa-code"></i>
                             <div class="text">Apps Design</div>
@@ -100,14 +102,14 @@
         </section>
 
         <!-- skills section start -->
-        <section class="skills" id="skills" aria-label="You are at skills section">
+        <section class="skills" id="skills">
             <div class="max-width">
                 <h2 class="title">My skills</h2>
                 <div class="skills-content">
                     <div class="column left">
                         <div class="text">My creative skills & experiences.</div>
                         <p>Coding is a beautiful art of thinking and structuring things correctly.</p>
-                        <a href="https://github.com/erickariasec" target="_blank" aria-label="Read more about Erick Arias at his GitHub page" role="button">Read more about me</a>
+                        <a href="https://github.com/erickariasec" target="_blank">Read more about me</a>
                     </div>
                     <div class="column right">
                         <div class="bars">
@@ -151,34 +153,34 @@
         </section>
 
         <!-- projects/teams section start -->
-        <section class="projects" id="projects" aria-label="You are at projects section">
+        <section class="projects" id="projects">
             <div class="max-width">
                 <h2 class="title">My projects</h2>
                 <div class="carousel owl-carousel">
-                    <div class="card" aria-label="Press here to go to The Beatles page created by Erick Arias">
+                    <div class="card">
                         <div class="box">
-                            <a href="https://erickariasec.github.io/the-beatles-page/" target="_blank"><img src="images/the-beatles-band.webp" alt="The Beatles Page"></a>
+                            <a href="https://erickariasec.github.io/the-beatles-page/" target="_blank"><img src="images/the-beatles-band.webp"></a>
                             <div class="text">The Beatles</div>
                             <p>Find The Beatles sogns</p>
                         </div>
                     </div>
-                    <div class="card" aria-label="Press here to go to list io page created by Erick Arias">
+                    <div class="card">
                         <div class="box">
-                            <a href="https://erickariasec.github.io/list.io/" target="_blank"><img src="images/list-io.jpg" alt="list-io Page"></a>
+                            <a href="https://erickariasec.github.io/list.io/" target="_blank"><img src="images/list-io.jpg"></a>
                             <div class="text">List.io</div>
                             <p>Products list</p>
                         </div>
                     </div>
-                    <div class="card" aria-label="Press here to go to Netflix clon page created by Erick Arias">
+                    <div class="card">
                         <div class="box">
                             <img src="images/netflix.png" alt="Netflix Clon Page">
                             <div class="text">Netflix Clon</div>
                             <p>Basic Design</p>
                         </div>
                     </div>
-                    <div class="card" aria-label="Press here to go to Spotify clon page created by Erick Arias">
+                    <div class="card">
                         <div class="box">
-                            <img src="images/spotify.webp" alt="Spotify Clon Page">
+                            <img src="images/spotify.webp">
                             <div class="text">Spotify</div>
                             <p>Minimalist Design</p>
                         </div>
@@ -195,7 +197,7 @@
         </section>
 
         <!-- contact section start -->
-        <section class="contact" id="contact" aria-label="You are at contact section">
+        <section class="contact" id="contact">
             <div class="max-width">
                 <h2 class="title">Contact me</h2>
                 <div class="contact-content">
@@ -228,23 +230,23 @@
                     </div>
                     <div class="column right">
                         <div class="text">Message me</div>
-                        <form action="https://formspree.io/f/mwkyabnz" method="post" aria-label="Enter your information to contact Erick Arias" role="form">
+                        <form action="https://formspree.io/f/mwkyabnz" method="post">
                             <div class="fields">
                                 <div class="field name">
-                                    <input type="text" id="name" name="name" placeholder="Name" required autocomplete="name" aria-label="Please enter your name">
+                                    <input type="text" id="name" name="name" placeholder="Name" required autocomplete="name">
                                 </div>
                                 <div class="field email">
-                                    <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email" aria-label="Please enter your email address">
+                                    <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
                                 </div>
                             </div>
                             <div class="field">
-                                <input type="text" id="subject" name="subject" placeholder="Subject" required autocomplete="off" aria-label="Please enter the subject you want to discuss with Erick Arias">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required autocomplete="off">
                             </div>
                             <div class="field textarea">
-                                <textarea id="message" name="message" cols="30" rows="10" placeholder="How can I help you?" required autocomplete="off" aria-label="Please enter the message you want to send to Erick Arias"></textarea>
+                                <textarea id="message" name="message" cols="30" rows="10" placeholder="How can I help you?" required autocomplete="off"></textarea>
                             </div>
                             <div class="button">
-                                <button type="submit" aria-label="Press here to submit your message" role="button">Send message</button>
+                                <button type="submit">Send message</button>
                             </div>
                         </form>
                     </div>
@@ -255,7 +257,7 @@
     
     <!-- footer section start -->
     <footer aria-label="You are at footer section">
-        <span>Created By <a href="https://github.com/erickariasec" target="_blank" aria-label="Erick Arias to go to Erick Arias GitHub page" role="link">Erick Arias</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+        <span>Created By <a href="https://github.com/erickariasec" target="_blank">Erick Arias</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
